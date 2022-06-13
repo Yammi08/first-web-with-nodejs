@@ -1,0 +1,83 @@
+*
+{
+    margin: 0px;
+}
+
+body
+{
+    background: #42275a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.page
+{
+    width: 60%;
+    height: 60vh;
+    background-color: #320e52;
+    box-shadow: 5px 5px 5px 5px #110020;
+    margin: auto;
+    margin-top: 40px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.navbar
+{
+    background-color: palevioletred;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 0px 0px 10px 10px;
+    border-style: ridge;
+    border-color: rgb(214, 131, 159);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.item-bar
+{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+}
+
+.links
+{
+    text-decoration: none;
+}
+.links-scale
+{
+    transition: 0.1s ease-in-out all;
+    display: inline-block;
+}
+.links-scale:hover
+{
+    transform:scale(1.5);
+}
+nav > a
+{
+    margin: 10px;
+}
+.rigth-bar
+{
+    /*display: flex;*/
+    margin-left: auto;
+    /*-ms-flex-align: end;
+    flex-grow: end;
+    text-align:right;*/
+    font-family: 'Spicy Rice', cursive;
+}
+.item-white
+{
+    color: white;
+}
+.title
+{
+    font-family: 'Cedarville Cursive', cursive;
+}
+.general-text
+{
+    font-family: 'Tai Heritage Pro', serif;
+}
